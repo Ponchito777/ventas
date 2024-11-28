@@ -1,0 +1,110 @@
+/* Archivo: styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f3f7;
+    margin: 0;
+    padding: 0;
+    }
+    
+    h1 {
+    color: #f03fbb;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin: 20px 0;
+    letter-spacing: 1.5px;
+    }
+    
+    .products, .cart {
+    margin-top: 20px;
+    width: 90%; }
+    max-width: 800px;
+    }
+    
+    .product {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+    }
+    
+    .product:hover {
+    transform: scale(1.02);
+    border-color: #00509e;
+    }
+    
+    .product img {
+
+
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+    }
+    
+    .product h3 {
+    margin: 0;
+    color: #003366;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    }
+    
+    .product p {
+    color: #666;
+    font-size: 0.9em;
+    }
+    
+    .quantity {
+    width: 50px;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    }
+    
+    button {
+    padding: 10px 20px;
+    background-color: #b92588;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+    background-color: #bb54aa;
+    }
+    
+    .cart ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    }
+    
+    .cart li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    padding: 10px;
+    background-color: #eef3f8;
+    border-radius: 6px;
+    }
+    
+    #total {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #dd65a1;
+    text-align: right;
+    margin-top: 20px;
+    }
